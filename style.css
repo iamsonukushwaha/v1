@@ -79,7 +79,7 @@
 #home::before{
     content: "";
     position: absolute;
-    background: url("../background.jpg") no-repeat center center/cover;
+    background: url("./background.jpg") no-repeat center center/cover;
     z-index: -1;
     height: 642px;
     top: 0px;
@@ -106,10 +106,11 @@
     background-color: orange;
 }
 
-.services::before{
-    background: url("../img/12.jpg") no-repeat center center/cover;
+.articles::before{
+   
     content: "";
     position: absolute;
+    background-color: red;
     width: 100%;
     height: 100px;
     z-index: -1;
@@ -131,32 +132,7 @@
     display: block;
 } 
 
-#client-section{
-    height: 344px;
-    position: relative;
-    
-}
 
-.clients-items{
-    padding: 34px 2px 3px 5px;
-}
-#clients img{
-    height: 124px;
-}
-#client-section::before{
-    content: "";
-    position: absolute;
-    background: url("../img/india.jpg") no-repeat center center/cover;
-    width: 100%;
-    height: 100px;
-    z-index: -1;
-    opacity: 0.4;
-}
-#clients{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .h-primary{
     color: red;
     font-size: 3.8rem;
@@ -167,49 +143,7 @@
     font-size: 2.8rem;
     padding: 12px;
 }
-.btn{
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    color: white;
-    margin: 17px;
-    font-size: 1.7rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
-#contact{
-    margin: 34px;
-    display: flex;
-    background-color: orange;
-}
-
-#contact::before{
-    background: url("../img/i2.jpg") no-repeat center center/cover;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    z-index: -1;
-    opacity: 0.4;
-}
-#contact #contact-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 34px;
-}
-#contact #contact-box label{
-    font-size: 1.3rem;
-
-}
-#contact #contact-box form{
-    width: 40%;
-}
-#contact #contact-box input, #contact-box textarea{
-    width: 50%;
-    padding: 0.5rem;
-}
 
 #footer{
     position: relative;
@@ -238,6 +172,4 @@
 #footer ul{
     display:flex;
     
-
 }
-

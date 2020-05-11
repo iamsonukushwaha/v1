@@ -16,10 +16,12 @@
             </div>
 
             <ul>
-                <li class="item"><a href="#home">Home</a></li>
-                <li class="item"><a href="#services">Services</a></li>
-                <li class="item"><a href="#clients">About Us</a></li>
-                <li class="item"><a href="#contact">Contact Us</a></li>
+                <li class="item"><a href="https://singlebucks.blogspot.com/">Home</a></li>
+                <li class="item"><a href="https://github.com/flyingsonu122">GitHub</a></li>
+                <li class="item"><a href="https://singlebucks.blogspot.com/p/facebook.html">Facebook</a></li>
+                <li class="item"><a href="https://twitter.com/sonukumarkush12">Twitter</a></li>
+                <li class="item"><a href="https://singlebucks.blogspot.com/p/pinterest.html">Pinterest</a></li>
+                <li class="item"><a href="https://singlebucks.blogspot.com/p/whatsapp.html">Contact Us</a></li>
             </ul>
 
             <span id="clock">Tuesday, April 28, 2020 6:31:05 PM</span>
@@ -32,120 +34,26 @@
             </div>
 
         </nav>
-        <form onsubmit="greet(); return false;">
-            <input autocomplete="off" autofocus id="name" type="text" placeholder="Enter your name">
-            <input type="submit">
-        </form>
-        <h2>Welcome to this website </h2>
-    
-        <button id="red">R</button>
-        <button id="green">G</button>
-        <button id="blue">B</button>
-        <script>
-    
-            let body = document.querySelector("body");
-            document.querySelector("#red").onclick = function(){
-                body.style.backgroundColor = "red";
-                body.style.color = "white";
-            };
-            document.querySelector("#green").onclick = function(){
-                body.style.backgroundColor = "green";
-            };
-            document.querySelector("#blue").onclick = function(){
-                body.style.backgroundColor = "blue";
-            };
-    
-        </script>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem blanditiis sint id aliquid eius saepe libero quisquam minima temporibus! Iusto iste placeat nihil animi officia repudiandae minima commodi fuga.</p>
-        <select>
-            <option value="xx-large">xx-large</option>
-            <option value="x-large">x-large</option>
-            <option value="large">large</option>
-            <option selected value="initial">initial</option>
-            <option value="small">small</option>
-            <option value="x-small">x-small</option>
-            <option value="xx-small">xx-small</option>
-        </select>
-    
-        <script>
-            document.querySelector("select").onchange = function(){
-                document.querySelector("body").style.fontSize = this.value;
-            };
-    
-        </script>
-
+        
         <section id="home">
             <h1 class="h-primary">Welcome to the website</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam maxime placeat adipisci expedita, ea
-                quis? Voluptatum, </p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam tempore quis hic qui maiores quasi
-                dolore accusantium quam deleniti optio illum.</p>
-            <button class="btn">Order now</button>
         </section>
-        <section class="services">
-            <h1 class="h-primary center">Our Services</h1>
+        <section class="articles">
+            <h1 class="h-primary center">Articles</h1>
             <div id="services">
                 <div class="box">
-                    <img src="a1.jpg" alt="">
-                    <h2 class="h-secondary center">Food Ordering</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quod! Et eos at quibusdam
-                        distinctio sunt repudiandae, magnam repellendus soluta voluptatum, voluptatem ratione blanditiis
-                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
+                    <img src="flower.jpeg" alt="image of a flower">
+                    <h2 class="h-secondary center">Flower</h2>
+                    <p> See the flower, how generously it distributes perfume and  honney 🍯.
+                        It gives to all, gives freely of its love and, when its work is done,it falls away quietly.
+                        <br/>
+                        Try to be like the flower, unassuming despite all its qualities.</p>
                 </div>
-                <div class="box">
-                    <img src="a2.jpg" alt="">
-                    <h2 class="h-secondary center">Food Catering</h2>
-                    <p>Lorem ipsum dolor sit amet conagnam repellendus soluta voluptatum, voluptatem ratione blanditiis
-                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
-                </div>
-                <div class="box">
-                    <img src="a3.jpg" alt="">
-                    <h2 class="h-secondary center">Bulk Ordering</h2>
-                    <p>Lorem ipsum dolor sit amet magnam repellendus soluta voluptatum, voluptatem ratione blanditiis
-                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
-                </div>
+                
             </div>
 
-        </section>
-        <section id="client-section">
-            <h1 class="h-primary">Our Clients</h1>
-            <div id="clients">
-                <div class="clients-items">
-                    <img src="img/i1.jpg" alt="Our Client1">
-                    <img src="img/ganeshji.jpg" alt="Our Client1">
-                    <img src="img/india.jpg" alt="Our Client1">
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h1 class="h-primary">Contact Us</h1>
-            <div id="contact-box">
-                <form action="">
-                    <div class="form-group">
-                        <label for "name">Name:</label>
-                        <input type="text" name="name" id="name" placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label for "name">Email:</label>
-                        <input type="email" name="name" id="name" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                        <label for "name">Number:</label>
-                        <input type="phone" name="name" id="name" placeholder="Enter your Number">
-                    </div>
-                    <div class="form-group">
-                        <label for "name">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"
-                            placeholder=" write your message here"></textarea>
-                    </div>
-                    <button class="btn">Send</button>
-                </form>
-            </div>
         </section>
         
-
         <script type="text/javascript">
 
             var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
