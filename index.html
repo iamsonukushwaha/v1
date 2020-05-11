@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Update Dashboard | India</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo.jpg" alt="logo">
+            </div>
+
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services">Services</a></li>
+                <li class="item"><a href="#clients">About Us</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul>
+
+            <span id="clock">Tuesday, April 28, 2020 6:31:05 PM</span>
+
+            <div class="right">
+                <form action="https://www.google.com/search" method="get">
+                    <input name="q" type="text" placeholder="type here to search">
+                    <input type="submit" value="Google Search">
+                </form>
+            </div>
+
+        </nav>
+        <form onsubmit="greet(); return false;">
+            <input autocomplete="off" autofocus id="name" type="text" placeholder="Enter your name">
+            <input type="submit">
+        </form>
+        <h2>Welcome to this website </h2>
+    
+        <button id="red">R</button>
+        <button id="green">G</button>
+        <button id="blue">B</button>
+        <script>
+    
+            let body = document.querySelector("body");
+            document.querySelector("#red").onclick = function(){
+                body.style.backgroundColor = "red";
+                body.style.color = "white";
+            };
+            document.querySelector("#green").onclick = function(){
+                body.style.backgroundColor = "green";
+            };
+            document.querySelector("#blue").onclick = function(){
+                body.style.backgroundColor = "blue";
+            };
+    
+        </script>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem blanditiis sint id aliquid eius saepe libero quisquam minima temporibus! Iusto iste placeat nihil animi officia repudiandae minima commodi fuga.</p>
+        <select>
+            <option value="xx-large">xx-large</option>
+            <option value="x-large">x-large</option>
+            <option value="large">large</option>
+            <option selected value="initial">initial</option>
+            <option value="small">small</option>
+            <option value="x-small">x-small</option>
+            <option value="xx-small">xx-small</option>
+        </select>
+    
+        <script>
+            document.querySelector("select").onchange = function(){
+                document.querySelector("body").style.fontSize = this.value;
+            };
+    
+        </script>
+
+        <section id="home">
+            <h1 class="h-primary">Welcome to the website</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam maxime placeat adipisci expedita, ea
+                quis? Voluptatum, </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam tempore quis hic qui maiores quasi
+                dolore accusantium quam deleniti optio illum.</p>
+            <button class="btn">Order now</button>
+        </section>
+        <section class="services">
+            <h1 class="h-primary center">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="a1.jpg" alt="">
+                    <h2 class="h-secondary center">Food Ordering</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quod! Et eos at quibusdam
+                        distinctio sunt repudiandae, magnam repellendus soluta voluptatum, voluptatem ratione blanditiis
+                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
+                </div>
+                <div class="box">
+                    <img src="a2.jpg" alt="">
+                    <h2 class="h-secondary center">Food Catering</h2>
+                    <p>Lorem ipsum dolor sit amet conagnam repellendus soluta voluptatum, voluptatem ratione blanditiis
+                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
+                </div>
+                <div class="box">
+                    <img src="a3.jpg" alt="">
+                    <h2 class="h-secondary center">Bulk Ordering</h2>
+                    <p>Lorem ipsum dolor sit amet magnam repellendus soluta voluptatum, voluptatem ratione blanditiis
+                        nobis ullam mollitia necessitatibus omnis, id voluptatibus voluptas atque veniam.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="client-section">
+            <h1 class="h-primary">Our Clients</h1>
+            <div id="clients">
+                <div class="clients-items">
+                    <img src="img/i1.jpg" alt="Our Client1">
+                    <img src="img/ganeshji.jpg" alt="Our Client1">
+                    <img src="img/india.jpg" alt="Our Client1">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="h-primary">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for "name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for "name">Email:</label>
+                        <input type="email" name="name" id="name" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for "name">Number:</label>
+                        <input type="phone" name="name" id="name" placeholder="Enter your Number">
+                    </div>
+                    <div class="form-group">
+                        <label for "name">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder=" write your message here"></textarea>
+                    </div>
+                    <button class="btn">Send</button>
+                </form>
+            </div>
+        </section>
+        
+
+        <script type="text/javascript">
+
+            var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+            var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
+            function getthedate() {
+                var mydate = new Date()
+                var year = mydate.getYear()
+                if (year < 1000)
+                    year += 1900
+                var day = mydate.getDay()
+                var month = mydate.getMonth()
+                var daym = mydate.getDate()
+                if (daym < 10)
+                    daym = "0" + daym
+                var hours = mydate.getHours()
+                var minutes = mydate.getMinutes()
+                var seconds = mydate.getSeconds()
+                var dn = "AM"
+                if (hours >= 12)
+                    dn = "PM"
+                if (hours > 12) {
+                    hours = hours - 12
+                }
+                if (hours == 0)
+                    hours = 12
+                if (minutes <= 9)
+                    minutes = "0" + minutes
+                if (seconds <= 9)
+                    seconds = "0" + seconds
+                //change font size here
+                var cdate = dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + " " + hours + ":" + minutes + ":" + seconds + " " + dn
+                if (document.all)
+                    document.all.clock.innerHTML = cdate
+                else if (document.getElementById)
+                    document.getElementById("clock").innerHTML = cdate
+                else
+                    document.write(cdate)
+            }
+            if (!document.all && !document.getElementById)
+                getthedate()
+            function goforit() {
+                if (document.all || document.getElementById)
+                    setInterval("getthedate()", 1000)
+            }
+            goforit()
+        </script>
+
+        <footer id="footer">
+            <ul>
+                <li><a href="#">Back to Top</a></li>
+                <li>Made with <b style="color: red;"> &hearts; </b> By <a href="https://twitter.com/sonukumarkush12">@sonukumarkush12</a></li>
+                <li style="color: white;" >Copyright &copy;<script type="text/javascript">document.write("2019 - " + new Date().getFullYear());</script></li>
+            </ul>
+        </footer>
+	
+    </body>
+</html>
