@@ -4,111 +4,114 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sonu kumar kushwaha">
         <title>Update Dashboard | India</title>
         <link rel="stylesheet" href="style.css">
-        
+
     </head>
 
     <body>
-        <nav id="navbar">
-            <div id="logo">
-                <img src="logo.jpg" alt="logo">
-            </div>
+        <header>
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="logo.jpg" alt="logo">
 
-            <ul>
-                <li class="item"><a href="https://singlebucks.blogspot.com/">Home</a></li>
-                <li class="item"><a href="https://github.com/flyingsonu122">GitHub</a></li>
-                <li class="item"><a href="https://singlebucks.blogspot.com/p/facebook.html">Facebook</a></li>
-                <li class="item"><a href="https://twitter.com/sonukumarkush12">Twitter</a></li>
-                <li class="item"><a href="https://singlebucks.blogspot.com/p/pinterest.html">Pinterest</a></li>
-                <li class="item"><a href="https://singlebucks.blogspot.com/p/whatsapp.html">Contact Us</a></li>
-            </ul>
-
-            <span id="clock">Tuesday, April 28, 2020 6:31:05 PM</span>
-
-            <div class="right">
-                <form action="https://www.google.com/search" method="get">
-                    <input name="q" type="text" placeholder="type here to search">
-                    <input type="submit" value="Google Search">
-                </form>
-            </div>
-
-        </nav>
-        
-        <section id="home">
-            <h1 class="h-primary">Welcome to the website</h1>
-        </section>
-        <section class="articles">
-            <h1 class="h-primary center">Articles</h1>
-            <div id="services">
-                <div class="box">
-                    <img src="flower.jpeg" alt="image of a flower">
-                    <h2 class="h-secondary center">Flower</h2>
-                    <p> See the flower, how generously it distributes perfume and  honney 🍯.
-                        It gives to all, gives freely of its love and, when its work is done,it falls away quietly.
-                        <br/>
-                        Try to be like the flower, unassuming despite all its qualities.</p>
                 </div>
+                <ul>
+                    <li class="item"><a href="https://singlebucks.blogspot.com/">Home</a></li>
+                    <li class="item"><a href="https://github.com/flyingsonu122">GitHub</a></li>
+                    <li class="item"><a href="https://singlebucks.blogspot.com/p/facebook.html">Facebook</a></li>
+                    <li class="item"><a href="https://twitter.com/sonukumarkush12">Twitter</a></li>
+                    <li class="item"><a href="https://singlebucks.blogspot.com/p/whatsapp.html">Contact</a></li>
+                    
+                </ul>
                 
-            </div>
+                <span id="clock">Tuesday, April 28, 2020 6:31:05 PM</span>
 
-        </section>
-        
-        <script type="text/javascript">
+            </nav>
+        </header>
 
-            var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
-            var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+        <main>
 
-            function getthedate() {
-                var mydate = new Date()
-                var year = mydate.getYear()
-                if (year < 1000)
-                    year += 1900
-                var day = mydate.getDay()
-                var month = mydate.getMonth()
-                var daym = mydate.getDate()
-                if (daym < 10)
-                    daym = "0" + daym
-                var hours = mydate.getHours()
-                var minutes = mydate.getMinutes()
-                var seconds = mydate.getSeconds()
-                var dn = "AM"
-                if (hours >= 12)
-                    dn = "PM"
-                if (hours > 12) {
-                    hours = hours - 12
+            <section id="home">
+                <h1 class="h-primary">Welcome to the website</h1>
+                <p></p>
+            </section>
+            <section class="articles">
+                <h1 class="h-primary ">Articles</h1>
+                <div id="services">
+                    <div class="box">
+                        <img src="flower.jpeg" alt="image of a flower">
+                        <h2 class="h-secondary ">Flower</h2>
+                        <p> See the flower, how generously it distributes perfume and honney 🍯.
+                            It gives to all, gives freely of its love and, when its work is done, it falls away quietly.
+                            <br />
+                            Try to be like the flower, unassuming despite all its qualities.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <script type="text/javascript">
+
+                var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
+                function getthedate() {
+                    var mydate = new Date()
+                    var year = mydate.getYear()
+                    if (year < 1000)
+                        year += 1900
+                    var day = mydate.getDay()
+                    var month = mydate.getMonth()
+                    var daym = mydate.getDate()
+                    if (daym < 10)
+                        daym = "0" + daym
+                    var hours = mydate.getHours()
+                    var minutes = mydate.getMinutes()
+                    var seconds = mydate.getSeconds()
+                    var dn = "AM"
+                    if (hours >= 12)
+                        dn = "PM"
+                    if (hours > 12) {
+                        hours = hours - 12
+                    }
+                    if (hours == 0)
+                        hours = 12
+                    if (minutes <= 9)
+                        minutes = "0" + minutes
+                    if (seconds <= 9)
+                        seconds = "0" + seconds
+                    //change font size here
+                    var cdate = dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + " " + hours + ":" + minutes + ":" + seconds + " " + dn
+                    if (document.all)
+                        document.all.clock.innerHTML = cdate
+                    else if (document.getElementById)
+                        document.getElementById("clock").innerHTML = cdate
+                    else
+                        document.write(cdate)
                 }
-                if (hours == 0)
-                    hours = 12
-                if (minutes <= 9)
-                    minutes = "0" + minutes
-                if (seconds <= 9)
-                    seconds = "0" + seconds
-                //change font size here
-                var cdate = dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + " " + hours + ":" + minutes + ":" + seconds + " " + dn
-                if (document.all)
-                    document.all.clock.innerHTML = cdate
-                else if (document.getElementById)
-                    document.getElementById("clock").innerHTML = cdate
-                else
-                    document.write(cdate)
-            }
-            if (!document.all && !document.getElementById)
-                getthedate()
-            function goforit() {
-                if (document.all || document.getElementById)
-                    setInterval("getthedate()", 1000)
-            }
-            goforit()
-        </script>
-
+                if (!document.all && !document.getElementById)
+                    getthedate()
+                function goforit() {
+                    if (document.all || document.getElementById)
+                        setInterval("getthedate()", 1000)
+                }
+                goforit()
+            </script>
+        </main>
         <footer id="footer">
             <ul>
-                <li><a href="#">Back to Top</a></li>
-                <li>Made with <b style="color: red;"> &hearts; </b> By <a href="https://twitter.com/sonukumarkush12">@sonukumarkush12</a></li>
-                <li style="color: white;" >Copyright &copy;<script type="text/javascript">document.write("2019 - " + new Date().getFullYear());</script></li>
+                <li style="color: yellow;"><a href="#">Back to Top</a></li>
+                <li style="color: white;">Made with <strong style="color: red;"> &hearts; </strong> By <a
+                        href="https://twitter.com/sonukumarkush12">@sonukumarkush12</a></li>
+                <li style="color: white;">Copyright &copy;
+                    <script type="text/javascript">document.write("2019 - " + new Date().getFullYear());</script>
+                </li>
             </ul>
         </footer>
-	
+
     </body>
+
 </html>
