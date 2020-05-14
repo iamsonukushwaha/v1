@@ -63,6 +63,7 @@
 }
 #home{
     display: flex;
+    /* flex-direction: column; */
     padding: 3px 200px;
     height: 628px;
     justify-content: center;
@@ -97,6 +98,7 @@
 #services{
     margin: 34px;
     display: flex;
+    border-radius: 40px;
     background-color: orange;
 }
 
@@ -119,9 +121,9 @@
 }
 
 #services .box img{
-    display: flex;
     margin: auto;
-    height: 160px;
+    border-radius: 20px;
+    height: 200px;
     display: block;
 } 
 
