@@ -1,167 +1,108 @@
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-#navbar{
-    position: relative;
-    display:flex;
-    align-items: center;
-
-}
-#navbar::before{
-    content: "";
-    background-color: black;
-    position: absolute;
+body {
     height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.4;
-
-}
-#navbar ul {
-    display:flex;
-    align-items: center;
-
-}
-#navbar ul li {
-    position: relative;
-    display:flex;
-    list-style: none;
-    font-size: 1.4rem;
-
+    min-width: 1060px;
+    margin: 0;
+    color: #574c4f;
+    font: 16px/1.7 normal normal;
+    font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
 }
 
-
-
-#clock {
-    color:yellow;
-    padding-left:60px;
+.welcome {
+    font: 16px/1.5 normal normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    color: #efdab9;
+    background-color: #343233;
+    padding: .5em 3em;
 }
-#navbar ul li a{
-    color: white;
-    display:block;
-    padding: 3px 22px;
-    border-radius: 20px;
+
+.welcome .welcome-cta {
+    margin: 66.6666666667px 0 0 0;
+}
+
+.link a{
+    color:#ffd152 ;
     text-decoration: none;
-}
-#navbar ul li a:hover{
-    color:black;
-    background-color: white;
-}
-#navbar p{
-    color:yellow;
-    font-size: 1.3rem;
+    padding: .5em 3em;
 
 }
-
-#logo img{
-    height: 59px;
-    margin: 24px 35px;
-    border-radius: 40px;
+.welcome .welcome-button {
+    display: inline-block;
+    padding: .5em 1em;
+    line-height: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #343233;
+    background-color: #ffd152;
 }
-#home{
-    display: flex;
-    /* flex-direction: column; */
-    padding: 3px 200px;
-    height: 628px;
-    justify-content: center;
-    align-items: center;
+
+.header ul {
+    display:flex;
+    margin-left: 20rem;
     
-}
-
-#home::before{
-    content: "";
-    position: absolute;
-    background: url("./background.jpg") no-repeat center center/cover;
-    z-index: -1;
-    height: 700px;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    opacity: 0.89;
 
 }
-
-#home h1{
-    color: white;
-    text-align: center;
-    
-}
-
-#home p{
-    color:yellowgreen;
-    text-align: center;
-    font-size: 1.5rem;
-}
-#services{
-    margin: 34px;
-    display: flex;
-    border-radius: 40px;
-    background-color: orange;
-}
-
-
-.articles::before{
-   
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.4;
-}
-#services .box{
-    border: 2px solid transparent;
-    padding: 34px;
-    margin: 80px 80px;
-    background: scroll;
-
-}
-
-#services .box img{
-    margin: auto;
-    border-radius: 20px;
-    height: 200px;
-    display: block;
-} 
-
-
-.h-primary{
-    color: red;
-    font-size: 3.8rem;
-    padding: 12px;
-}
-.h-secondary{
-    color: rgba(36, 49, 105, 0.61);
-    font-size: 2.8rem;
-    padding: 24px;
-}
-
-
-#footer{
+.header ul li {
     position: relative;
-    padding:35px ;
     display:flex;
-    background-color:#2d89ef;
-
-}
-#footer::before{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    opacity: 0.4;
-
-}
-
-#footer ul li {
-    padding: 15px  100px ;
     list-style: none;
+    font-size: 2em;
+    font-weight: 500;
 
 }
-
-#footer ul{
-    display:flex;
+.header a {
+    color:#ffd152 ;
+    text-decoration: none;
+    padding: .5em .5em;
     
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.welcome .columns .column:last-child {
+    padding-left: 66.6666666667px;
+}
+.columns .column:last-child {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.welcome .column {
+    width: 50%;
+}
+
+
+.columns {
+    overflow: hidden;
+    width: 100%;
+}
+.columns .column {
+    float: left;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    vertical-align: top;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+
+.footer a{
+    color:#ffd152 ;
+    text-decoration: none;
 }
