@@ -40,7 +40,8 @@ body {
 
 .header ul {
     display:flex;
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
+    /* margin-right: 15rem; */
     
 
 }
@@ -48,14 +49,14 @@ body {
     position: relative;
     display:flex;
     list-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
 
 }
 .header a {
     color:#ffd152 ;
     text-decoration: none;
-    padding: .5em .5em;
+    padding: .5em 2em;
     
 }
 p {
