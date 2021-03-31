@@ -1,19 +1,22 @@
-### Portfolio Website
+# Portfolio Website
 
-See Live Demo on [https://flyingsonu122.github.io/](https://flyingsonu122.github.io/)
+See Live Demo on [flyingsonu122.github.io](https://flyingsonu122.github.io/)
 
-My Webpage Looks Like This, Go And Explore It.
+<br/>
 
-![Screenshot](./images/My-Portfolio-Screenshot.png "Screenshot")
+<a href="flyingsonu122.github.io"><img src="./images/demo.png " alt="Portfolio Website"></a>
 
-
-#### Thanks!
+<br/><br/>
 
 Thank you for being here! You can find my other project **[here](https://github.com/flyingsonu122?tab=repositories)**.
 
+<br/>
+
 [![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://linktr.ee/flyingsonu) 
 
-<br><br>
+
+<br/><br/>
+
 <p align="center"> Let's have a chat on </p> 
 <p align="center">
 	<a href="https://github.com/flyingsonu122"><img src="https://img.shields.io/github/followers/flyingsonu122.svg?label=GitHub&style=social" alt="GitHub"></a>
