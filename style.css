@@ -69,6 +69,11 @@ i {
   width: 100%;
 }
 
+#third {
+  padding-top: 30px;
+  height: 400px;
+}
+
 #portfolio h2,
 #contact h2 {
   font-size: 40px;
