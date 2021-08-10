@@ -1,9 +1,10 @@
 {
     "name": "Sonu Kumar Kushwaha",
     "short_name": "sonu.live",
-    "start_url": "/index.html",
+    "start_url": "./",
     "display": "standalone",
-    "background_color": "#fff",
+    "theme_color": "#ffd31d",
+    "background_color": "#333",
     "description": "Sonu Kumar Kushwaha – A collection of everything that goes in my head.",
     "icons": [
         {
