@@ -6,7 +6,14 @@ See Live Demo on [flyingsonu122.github.io](https://flyingsonu122.github.io/)
 
 <a href="flyingsonu122.github.io"><img src="./images/demo.png " alt="Portfolio Website"></a>
 
-<br/><br/>
+
+
+
+<br><br>
+
+**MIT &copy; [Sonu Kumar Kushwaha](https://github.com/flyingsonu122)**
+
+**Thanks!**
 
 Thank you for being here! You can find my other project **[here](https://github.com/flyingsonu122?tab=repositories)**.
 
