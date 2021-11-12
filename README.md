@@ -13,7 +13,7 @@ See Live Demo on **[flyingsonu122.github.io](https://flyingsonu122.github.io/)**
 
 **MIT &copy; [Sonu Kumar Kushwaha](https://github.com/flyingsonu122)**
 
-**Thanks!**
+
 
 Thank you for being here! You can find my other project **[here](https://github.com/flyingsonu122?tab=repositories)**.
 
