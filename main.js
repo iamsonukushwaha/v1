@@ -1,8 +1,3 @@
-const row = document.getElementById('row');
-
-
-// console.log(row);
-
 const getProjects = async() => {
     let uri = `https://www.sonu.live/projects.json`;
     const res = await fetch(uri);
@@ -13,6 +8,10 @@ const getProjects = async() => {
 
 
     list.forEach(i => {
+        const row = document.getElementById('row');
+
+
+        // console.log(row);
         // console.log(i);
         // console.log(i.name);
 
