@@ -4,7 +4,7 @@ const row = document.getElementById('row');
 // console.log(row);
 
 const getProjects = async() => {
-    let uri = `http://localhost:5500/projects.json`;
+    let uri = `http://www.sonu.live/projects.json`;
     const res = await fetch(uri);
     const data = await res.json();
 
