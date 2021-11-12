@@ -33,7 +33,7 @@ const getProjects = async() => {
                 </div>
         `;
 
-        row.innerHTML = template;
+        row.innerHTML += template;
        // row.insertAdjacentHTML('beforeend', template);
     });
 
