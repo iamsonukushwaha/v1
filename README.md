@@ -1,10 +1,10 @@
 # Portfolio Website
 
-See Live Demo on **[flyingsonu122.github.io](https://flyingsonu122.github.io/)**
+See Live Demo on **[flyingsonu122.github.io/v1](https://flyingsonu122.github.io/v1)**
 
 <br/>
 
-<a href="flyingsonu122.github.io"><img src="./images/demo.png " alt="Portfolio Website"></a>
+<a href="https://flyingsonu122.github.io/v1"><img src="./images/demo.png " alt="Portfolio Website"></a>
 
 
 
