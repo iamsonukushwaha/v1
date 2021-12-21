@@ -7,7 +7,9 @@ See Live Demo on **[flyingsonu122.github.io/v1](https://flyingsonu122.github.io/
 <a href="https://flyingsonu122.github.io/v1"><img src="./images/demo.png " alt="Portfolio Website"></a>
 
 
+**list of projects**
 
+[flyingsonu122.github.io/v1/projects.html](https://flyingsonu122.github.io/v1/projects.html)
 
 <br><br>
 
