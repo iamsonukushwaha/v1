@@ -31,3 +31,67 @@ email = `mailto: ${aboutData.email};
 // work on followings_url
 
 // work on organizations_url
+// work on received events
+// work on gists_url
+
+const about = document.getElementById("about");
+
+let about Template = `
+
+<a href="${aboutData.html_url}" target="_blank" rel="noopener noreferrer" data-aos-"fade-up"> 
+<img src="${aboutData.avatar_url}" alt="${aboutData.name}" class="port">
+
+</a>
+
+<p>$(aboutData.name}</p>
+
+<p>username: $(aboutData.login) </p>
+
+<p>Joined on: $(d)</p>
+
+<p>
+
+<a href="${email}" target="_blank" rel="noopener noreferrer">
+
+${email}
+
+</a>
+
+</p>
+
+
+
+
+
+<p> twitter: ${aboutData.twitter_username}</p>
+
+<p>followers: ${aboutData.followers}</p>
+
+<p>following: ${aboutData.following}</p>
+
+<p>location: ${aboutData.location}</p>
+
+<p>
+
+company :<a href="https://github.com/${company}" target="_blank" rel="noopener noreferrer">
+
+${aboutData.company}
+
+</a>
+
+</p>
+
+<p>
+
+website: <a href="${aboutData.blog}" target="_blank" rel="noopener noreferrer">
+
+${aboutData.blog}
+
+</a>
+
+</p>
+
+
+
+
+
