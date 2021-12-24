@@ -41,6 +41,12 @@ i {
   width: 15%;
 }
 
+.pic {
+  border-radius: 50%;
+  border: 2px #ccc solid;
+  width: 45%;
+}
+
 .icon-row {
   margin: 45px auto;
   width: 100%;
@@ -78,6 +84,35 @@ i {
 #contact h2 {
   font-size: 40px;
   margin: 0 0 15px 0;
+}
+
+#about h5 {
+  color: rgb(121, 121, 87);
+}
+
+#about h1 {
+  color: rgb(55, 30, 68);
+}
+
+
+#about {
+  border: 5px solid rgb(138, 138, 126);
+  padding: 20px;
+  margin: 15%;
+  text-align: center;
+  
+}
+
+#projects {
+  text-align: center;
+  margin: 10%;
+
+}
+
+#projects a{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .panel {
