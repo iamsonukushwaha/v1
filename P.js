@@ -90,8 +90,22 @@ ${aboutData.blog}
 </a>
 
 </p>
+<p>
+
+GitHub: <a href="${aboutData.html_url}" target="_blank" rel="noopener noreferrer">
+
+${aboutData.html_url}
+
+</a>
+
+</p>
 
 
+<p>bio: ${aboutData.bio}</p>
 
+`;
+about.innerHTML += aboutTemplate;
+};
 
+getAbout();
 
