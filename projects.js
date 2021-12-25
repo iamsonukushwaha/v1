@@ -15,9 +15,7 @@ const getAbout = async () => {
   const about = document.getElementById("about");
 
   let aboutTemplate = `
-      <a href = "${aboutData.html_url}" target = "_blank" rel = "noopener noreferrer" data-aos="fade-up" > 
-      <img src="${aboutData.avatar_url}" alt="${aboutData.name}" class="pic">
-      </a>
+      <a href = "${aboutData.html_url}" target = "_blank" rel = "noopener noreferrer" data-aos="fade-up" ><img src="${aboutData.avatar_url}" alt="${aboutData.name}" class="pic"></a>
       <h1>${aboutData.name}</h1>
       <h5>${aboutData.bio}</h5>
       <h3>${aboutData.location}</h3>
@@ -63,9 +61,7 @@ const getData = async () => {
     const projects = document.getElementById("projects");
 
     let template = `
-      <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up" >
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=flyingsonu122&repo=${i.name}&theme=buefy" alt="${i.name}">
-      </a>
+      <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up"><img src="https://github-readme-stats.vercel.app/api/pin/?username=flyingsonu122&repo=${i.name}&theme=buefy" alt="${i.name}"></a>
     `;
 
     projects.innerHTML += template;
