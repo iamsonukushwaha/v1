@@ -1,5 +1,5 @@
 const getProjects = async() => {
-    let uri = `https://www.sonu.live/projects.json`;
+    let uri = `https://www.sonu.live/v1/projects.json`;
     const res = await fetch(uri);
     const data = await res.json();
 
