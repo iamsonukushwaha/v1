@@ -25,9 +25,7 @@ const getData = async () => {
         const projects = document.getElementById('projects');
 
         let template = `
-            <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up" >
-                <img src="https://github-readme-stats.vercel.app/api/pin/?username=flyingsonu122&repo=${i.name}&theme=buefy" alt="${i.name}">
-            </a>
+            <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up"><img src="https://github-readme-stats.vercel.app/api/pin/?username=flyingsonu122&repo=${i.name}&theme=buefy" alt="${i.name}"></a>
         `;
 
         projects.innerHTML += template;
