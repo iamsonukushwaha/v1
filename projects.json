@@ -4,42 +4,42 @@
             "name": "Tribute Page",
             "link": "https://flyingsonu122.github.io/tribute-page/",
             "source": "https://github.com/flyingsonu122/tribute-page",
-            "image": "https://www.sonu.live/images/TributePage.png"
+            "image": "https://www.sonu.live/v1/images/TributePage.png"
         },
         {
             "id": 2,
             "name": "Nextjs Blog",
             "link": "https://nextjs-blog-check.vercel.app/",
             "source": "https://github.com/flyingsonu122/nextjs-blog",
-            "image": "https://www.sonu.live/images/NextjsSample.png"
+            "image": "https://www.sonu.live/v1/images/NextjsSample.png"
         },
         {
             "id": 3,
             "name": "Gatsby Blog",
             "link": "https://blog-minimal.netlify.app/",
             "source": "https://github.com/flyingsonu122/minimalBlog",
-            "image": "https://www.sonu.live/images/GatsbyBlog.png"
+            "image": "https://www.sonu.live/v1/images/GatsbyBlog.png"
         },
         {
             "id": 4,
             "name": "Search Flowers",
             "link": "https://flyingsonu122.github.io/Search-Flowers/",
             "source": "https://github.com/flyingsonu122/Search-Flowers",
-            "image": "https://www.sonu.live/images/Flowers.jpeg"
+            "image": "https://www.sonu.live/v1/images/Flowers.jpeg"
         },
         {
             "id": 5,
             "name": "Company Card",
             "link": "https://flyingsonu122.github.io/company-card/",
             "source": "https://github.com/flyingsonu122/company-card",
-            "image": "https://www.sonu.live/images/CompanyCard.png"
+            "image": "https://www.sonu.live/v1/images/CompanyCard.png"
         },
         {
             "id": 6,
             "name": "Diwali Wishes",
             "link": "https://flyingsonu122.github.io/diwali-wishes/",
             "source": "https://github.com/flyingsonu122/diwali-wishes",
-            "image": "https://www.sonu.live/images/DiwaliWishes.png"
+            "image": "https://www.sonu.live/v1/images/DiwaliWishes.png"
         }
 
     ]
