@@ -1,5 +1,5 @@
 const getAbout = async () => {
-  const aboutRes = await fetch("https://api.github.com/users/flyingsonu122");
+  const aboutRes = await fetch("https://api.github.com/users/iamsonukushwaha");
   const aboutData = await aboutRes.json();
   //   console.log(aboutData);
   const d = new Date(aboutData.created_at).toDateString();
@@ -37,7 +37,7 @@ const getAbout = async () => {
 
 const getData = async () => {
   getAbout();
-  let uri = "https://api.github.com/users/flyingsonu122/repos?per_page=100";
+  let uri = "https://api.github.com/users/iamsonukushwaha/repos?per_page=100";
   const res = await fetch(uri);
   const data = await res.json();
 
@@ -61,7 +61,7 @@ const getData = async () => {
     const projects = document.getElementById("projects");
 
     let template = `
-      <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up"><img src="https://github-readme-stats.vercel.app/api/pin/?username=flyingsonu122&repo=${i.name}&theme=buefy" alt="${i.name}"></a>
+      <a href="${i.html_url}" target="_blank" rel="noopener noreferrer" data-aos="fade-up"><img src="https://github-readme-stats.vercel.app/api/pin/?username=iamsonukushwaha&repo=${i.name}&theme=buefy" alt="${i.name}"></a>
     `;
 
     projects.innerHTML += template;
